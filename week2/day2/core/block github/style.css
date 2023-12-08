@@ -1,0 +1,47 @@
+
+.container{
+    width: 950px;
+    background-color: rgb(221, 220, 220);
+    margin: 0px auto;
+    
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.block-1{
+    background-color: #65D1FF;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+   
+
+
+}
+.block-2{
+    background-color: #BE9AAA;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+
+}
+.block-3{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.octocat{
+    width: 200px;
+    height: 200px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

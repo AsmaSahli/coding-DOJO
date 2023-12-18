@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width:1200px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.nav{
+    background-color: #9FC5F8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.cities{
+    display: flex;
+    gap: 10px ;
+
+}
+.cities a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.block-1{
+    display: flex;
+    align-items: center;
+    gap: 600px;
+    
+    padding: 20px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #000000;
+    
+    
+
+}
+.temperature{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#select {
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px; 
+
+
+}
+.block-2{
+    display: flex;
+    gap: 20px;
+    
+   
+
+    
+}
+.forecast{
+    width: 220px;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 5px;
+
+}
+.forecast >img{
+    width: 150px;
+}
+.policy-message{
+    background-color: #EEEEEE;
+    border: 3px solid black;
+    position: fixed;
+    width: 950px;
+    bottom: 20px;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.policy-message> p{
+    font-size: 20px;
+}
+p > span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.temperatures{
+    display: flex;
+    gap: 40px;
+
+}
+.high , .low {
+    font-size: 20px;
+    font-weight: bold;
+}
+.high{
+    color: red;
+}
+.low{
+    color: blue;
+}
+button{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    background-color: #9fc5f8;
+    cursor: pointer;
+}
+
